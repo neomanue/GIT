@@ -10,9 +10,10 @@ https://www.freecodecamp.org/espanol/news/gitignore-explicado-que-es-y-como-agre
 
 
 @Crear el usuario global (Importante)
->git config -- global user.email "xxxxxxx@gmail.com" Para configurar email del usuario
->git config -- global user.name "Neomanu" Para configurar nombre del usuario
->git config --global core.excludesfile ~/.gitignore_global
+
+> git config -- global user.email "xxxxxxx@gmail.com" Para configurar email del usuario
+> git config -- global user.name "Neomanu" Para configurar nombre del usuario
+> git config --global core.excludesfile ~/.gitignore_global
 
 # Inicializa el proyecto con la carpeta .git (Importante) 
 # Oye Git, voy a usar estos documentos contigo ¿vale? 
@@ -28,15 +29,15 @@ https://www.freecodecamp.org/espanol/news/gitignore-explicado-que-es-y-como-agre
 > git branch #Visualiza todo los branch existentes.
 > git checkout dev #Cambiar de branch. 
 
->git commit -m "first commit"    #Crea un commit de los ficheros sin entrar en VIM.
->git commit "first commit" #Crea un commit entrando al VIM se visualiza los archivos a subir. 
+> git commit -m "first commit"    #Crea un commit de los ficheros sin entrar en VIM.
+> git commit "first commit" #Crea un commit entrando al VIM se visualiza los archivos a subir. 
 
 > git status # Visualizamos cambios en el branch en el caso que se añada nuevos archivos o modificados.  
 
 > git branch -d dev  #Eliminar branch 
 > git diff fichero.tf #Para ver las diferencias hechas en los archivos 
 
->git log #Visualizar el historial de commit 
+> git log #Visualizar el historial de commit 
 
 > git pull #Traer los docs de un server, traer los cambios de tus compañeros. (actualiza el codigo online)
 
@@ -44,11 +45,11 @@ https://www.freecodecamp.org/espanol/news/gitignore-explicado-que-es-y-como-agre
 
 
 #Asigna el proyecto de github en donde se cargaran los ficheros.
->git remote add origin https://github.com/neomanue/terraform_test.git
->git push -u origin main
+> git remote add origin https://github.com/neomanue/terraform_test.git
+> git push -u origin main
 
 insertar un repositorio existente desde la línea de comandos
 
->git remote add origin https://github.com/neomanue/terraform_test.git
->git branch -M main
->git push -u origin main
+> git remote add origin https://github.com/neomanue/terraform_test.git
+> git branch -M main
+> git push -u origin main
