@@ -12,7 +12,9 @@ https://www.freecodecamp.org/espanol/news/gitignore-explicado-que-es-y-como-agre
 @Crear el usuario global (Importante)
 
 > git config -- global user.email "xxxxxxx@gmail.com" Para configurar email del usuario.
+ 
 > git config -- global user.name "Neomanu" Para configurar nombre del usuario.
+ 
 > git config --global core.excludesfile ~/.gitignore_global.
 
 # Inicializa el proyecto con la carpeta .git (Importante) 
